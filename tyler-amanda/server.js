@@ -12,8 +12,12 @@ const PORT = process.env.PORT || 3000;
 // POST middleware
 app.use(express.static('./public'));
 
+// route for handling request to new.html
+app.get('/new-article', (request, response) => {
+  response.sendFile('new.html', { root: './public' });
+});
 
-
+// Middleware
 app.use(express.urlencoded({ extended: true }));
 
 app.listen(PORT, () => console.log(`Server is listening on port ${PORT}` ));
