@@ -1,0 +1,21 @@
+{
+  "name": "tyler-pearson",
+  "version": "1.0.0",
+  "description": "Bloggy Boi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "blog",
+    "server",
+    "js",
+    "javascript"
+  ],
+  "author": "Tyler Pearson && Amanda Moen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
