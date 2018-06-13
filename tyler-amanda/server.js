@@ -26,5 +26,5 @@ app.post('/articles', (request, response) => {
 
 app.use((request, response, next) => {
   console.log('OH NOES a 404!!!!!!!');
-  response.status(404).sendFile('404.html', { root: './public' })
+  response.status(404).sendFile('404.html', { root: './public' });
 });
