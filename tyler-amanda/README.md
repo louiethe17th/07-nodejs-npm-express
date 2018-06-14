@@ -15,6 +15,7 @@ HTML, CSS, JavaScript, jQuery, ExpressJS, NodeJS, node and nodemon, JSON, etc.
 ## Change Log
 06-13-2018 12:00pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
 06-13-2018 1:25pm - Completed the comments, and created/completed the README.md.
+06-13-2018 3:30pm - Added a /.new route to the new.html page
 
 ## Credits and Collaborations
 Referenced yesterday's lab-demo.
